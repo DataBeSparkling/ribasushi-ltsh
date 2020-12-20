@@ -7,7 +7,7 @@ USAGE:
    lotus-worker [global options] command [command options] [arguments...]
 
 VERSION:
-   1.28.2
+   瘪莲
 
 COMMANDS:
    run        Start lotus worker
