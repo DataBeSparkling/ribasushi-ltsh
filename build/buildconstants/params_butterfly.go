@@ -13,7 +13,7 @@ import (
 )
 
 var DrandSchedule = map[abi.ChainEpoch]DrandEnum{
-	0: DrandQuicknet,
+	0: DrandMainnet,
 }
 
 const GenesisNetworkVersion = network.Version22
@@ -88,7 +88,7 @@ const PropagationDelaySecs = uint64(6)
 var EquivocationDelaySecs = uint64(2)
 
 // BootstrapPeerThreshold is the minimum number peers we need to track for a sync worker to start
-const BootstrapPeerThreshold = 2
+const BootstrapPeerThreshold = 1
 
 // ChainId defines the chain ID used in the Ethereum JSON-RPC endpoint.
 // As per https://github.com/ethereum-lists/chains
